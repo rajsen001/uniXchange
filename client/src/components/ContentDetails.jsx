@@ -12,7 +12,7 @@ const ContentDetails = ({ username, createdAt, edited, preview, college }) => {
         <UserAvatar width={45} height={45} username={username} />
         <Stack>
           <span className="uppercase text-primary text-[12px] opacity-80 font-semibold">
-            {college ? college : "Pune University"}
+            {college ? college : "UniXchange User"}
           </span>
           <span
             color="inherit"
