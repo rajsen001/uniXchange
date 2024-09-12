@@ -1,0 +1,36 @@
+
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+*,
+body,
+html {
+  font-family: "Lato", sans-serif;
+  letter-spacing: 1.3px;
+}
+
+a,
+input,
+button,
+textarea,
+h1,
+h2,
+h3
+h4,
+h5,
+h6,
+select,
+option {
+  color: inherit;
+  font-family: "Lato", sans-serif !important;
+}
+
+a {
+  
+  text-decoration: none !important;
+}
+
+a:hover {
+  cursor: pointer
+}
